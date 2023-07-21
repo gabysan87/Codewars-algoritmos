@@ -21,3 +21,4 @@ return x.toLowerCase() === x.toLowerCase().split('').reverse().join('');
 // reverse(): Invierte el orden de los elementos del arreglo.
 // join(''): Une los elementos del arreglo en una cadena, sin ningún separador entre ellos. Esto crea el reverso de la cadena original.
 // En resumen, este algoritmo verifica si la cadena x es un palíndromo, ignorando las diferencias entre mayúsculas y minúsculas. Si x es un palíndromo, la función devuelve true; de lo contrario, devuelve false
+

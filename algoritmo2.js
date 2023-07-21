@@ -7,9 +7,7 @@
 
 const noBoringZeros = (n) => {
 
-//  return n = (n)/1000;
-
-return n.slice(1)
+return Number(n.toString().replace(/0+$/,''));
     
   }
 
