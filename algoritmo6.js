@@ -8,4 +8,4 @@ console.log(makeUpperCase("Hello"))
 console.log(makeUpperCase("HELLO"))
 
 // Interpetacion
-// la función toUpperCase() para convertir a «mayúsculas»
+// la función toUpperCase()sirve para convertir a «mayúsculas»
