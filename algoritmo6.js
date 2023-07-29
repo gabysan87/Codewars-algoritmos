@@ -1,3 +1,7 @@
+// MakeUpperCase
+// Escriba una función que convierta la cadena de entrada a mayúsculas
+
+
 const makeUpperCase = (str) => {
     
 return str.toUpperCase()

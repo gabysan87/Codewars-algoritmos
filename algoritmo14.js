@@ -1,4 +1,5 @@
-// Dadas 2 cadenas, ay b, devuelve una cadena de la forma corta+larga+corta, con la cadena más corta en el exterior y la cadena más larga en el interior. Las cadenas no tendrán la misma longitud, pero pueden estar vacías ( zerolongitud).
+// Corto largo corto
+//  Dadas 2 cadenas, a y b, devuelve una cadena de la forma corta+larga+corta, con la cadena más corta en el exterior y la cadena más larga en el interior. Las cadenas no tendrán la misma longitud, pero pueden estar vacías ( zerolongitud).
 
 // Sugerencia para los usuarios de R:
 

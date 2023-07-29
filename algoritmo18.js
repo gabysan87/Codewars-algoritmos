@@ -1,8 +1,10 @@
-// Cree una función que devuelva una matriz de enteros de n a 1 donde n>0.
+// secuencia inversa
+ 
+// Cree una función que devuelva una matriz de enteros de n a 1 donde n > 0.
 
 // Ejemplo : n=5-->[5,4,3,2,1]
 
-const reverseSeq = n => {
+const reverseSeq = (n) => {
   
     // return Array.from({ length: n }, (_, i) => n - i)
     return [...Array(n)].map((_, i) => n - i);

@@ -1,6 +1,6 @@
 // eliminador de vocales
 
-// Cree una función llamada shortcutpara eliminar las vocales minúsculas a ( , e, i, o, u) en una cadena determinada.
+// Cree una función llamada shortcutpara eliminar las vocales minúsculas (a , e, i, o, u) en una cadena determinada.
 
 // Ejemplos
 
