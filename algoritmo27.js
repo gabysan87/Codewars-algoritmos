@@ -21,6 +21,8 @@ function pipeFix(numbers){
         newList.push(i + 0);
     }
     return newList;
+
+    // return  Array.from({ length: nums.pop() - nums[0] + 1 }, (v, i) => i + nums[0]);
   
   }
 
@@ -29,3 +31,5 @@ function pipeFix(numbers){
   console.log(pipeFix([6,9]))
   console.log(pipeFix([-1,4]))
   console.log(pipeFix([1,2,3]))
+
+//   Interpretacion
