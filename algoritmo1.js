@@ -14,4 +14,4 @@ console.log(simpleMultiplication(8))
 console.log(simpleMultiplication(5))
 
 // Interpretacion:
-// Primero le establecemos % 2 para buscar el parent, luego use el operador ternario para indicarle la condicion si el nro. se multiplica por 8 es parent, y le 2da condicion se multiplica por 9 para el caso contrario.
+// Primero le establecemos el modulo (%) con 2 para buscar el numero par, luego use el operador ternario para indicarle la condicion si el nro. se multiplica por 8 es par, y le 2da condicion se multiplica por 9 para el caso contrario.

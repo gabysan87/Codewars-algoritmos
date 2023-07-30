@@ -10,6 +10,7 @@ const addLength = (str) => {
    
     return str.split(' ').map((element) => element + " " + element.length)
     // return str.split(" ").map(s => `${s} ${s.length}`)
+
     }
 
 console.log(addLength('apple ban'))
@@ -17,3 +18,4 @@ console.log(addLength("You need to return an array. Did you log to the console i
  
 // Interpretacion
 // Primero usamos un .split para convertir de string a array, luego usamos el .map para iterar en cada elemento, al final usamos un template string para poder separar los elementos y arroje la longitud. 
+    

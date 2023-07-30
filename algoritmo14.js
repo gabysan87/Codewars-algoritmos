@@ -9,6 +9,7 @@ const solution = (a, b) => {
 
     return a.length >= b.length ? b + a + b: a + b + a
     // return a.length < b.length ? a + b + a : b + a + b
+    
   }
 
   console.log(solution('45', '1'))
@@ -17,3 +18,4 @@ const solution = (a, b) => {
  console.log(solution('U', 'False'))
 
 //  Interpretacion
+
