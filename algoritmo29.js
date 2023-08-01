@@ -23,4 +23,4 @@ console.log(lowercaseCount("ABC123!@€£#$%^&*()_-+=}{[]|\':;?/>.<,~"),)
 console.log(lowercaseCount("abcdefghijklmnopqrstuvwxyz"))
 
 // Interpretación
-// El método match() devuelve todas las ocurrencias de una expresión regular dentro de una cadena, se usa la exprexion regular para ubicar las letras minusculas y luego usamos .length para contar la cantidad de caracteres 
+// El método match() devuelve todas las ocurrencias de una expresión regular dentro de una cadena, se usa la expresión regular para ubicar las letras minusculas y luego usamos .length para contar la cantidad de caracteres 

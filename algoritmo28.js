@@ -6,22 +6,13 @@
 
 // Salida :: "Posición del alfabeto: 1"
 
-function position(letter){
-
-   
-    let abc = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
-    let pos;
-    for (var i = 0; i < letter.length; i++) {
-        pos=abc.indexOf(letter[i].toLowerCase())+1;
-        if(pos){
-            return (letter[i] + ": " + pos);
-        }
-    }
+function position(letter) {
+  return `Position of alphabet: ${letter.charCodeAt() - 96}`;
 }
-   
 
+console.log(position("a"));
+console.log(position("z"));
+console.log(position("e"));
 
-console.log(position("a"))
-console.log(position("z"))
-console.log(position("e"))
-
+// Interpretación
+// El charCodeAt() método devuelve un número indicando el valor Unicode del carácter en el índice proporcionado, se incluye el valor -96 para poder ubicar la posicion del abecedario.
