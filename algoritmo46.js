@@ -20,3 +20,6 @@ function splitAndMerge(string, separator) {
  console.log(splitAndMerge("My name is John","-"));
  console.log(splitAndMerge("Hello World!","."));
  console.log(splitAndMerge("Hello World!",","))
+
+// Interpretacion
+// Se utiliza un primer split para pasar el string a un Array, el map se itera alli los elementos los separa nuevamente con el split luego los une con separador con el join, al final lo convierto de array a string.
