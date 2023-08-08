@@ -21,15 +21,15 @@ function pipeFix(numbers){
         newList.push(i + 0);
     }
     return newList;
-
     // return  Array.from({ length: nums.pop() - nums[0] + 1 }, (v, i) => i + nums[0]);
-  
+
   }
 
   console.log(pipeFix([1,2,3,5,6,8,9]))
-  console.log([1,2,3,12])
+  console.log(pipeFix([1,2,3,12]))
   console.log(pipeFix([6,9]))
   console.log(pipeFix([-1,4]))
   console.log(pipeFix([1,2,3]))
 
 //   Interpretacion
+// El método Array.from() crea una nueva instancia de Array a partir de un objeto iterable.

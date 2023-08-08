@@ -7,7 +7,7 @@
 // Salida :: "Posición del alfabeto: 1"
 
 function position(letter) {
-  return `Position of alphabet: ${letter.charCodeAt() - 96}`
+  return `Position of alphabet: ${letter.charCodeAt() - 96}`;
 }
 
 console.log(position("a"));

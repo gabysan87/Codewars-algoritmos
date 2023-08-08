@@ -10,11 +10,11 @@ const sumMul = (n, m) => {
     element.push(i);
   }
   return n < m ? element.reduce((acc, item) => acc + item) : "INVALID";
-}
+};
 
 console.log(sumMul(0, 0));
 console.log(sumMul(2, 9));
 console.log(sumMul(4, -7));
 
 // Interpretacion
-// se creo el array vacio para guardar el resultado, luego se aplica el bucle for, seguimos con el push agregar todos los numeros al array vacio, luego se ejecuta el operador ternario para
+// se creo el array vacio para guardar el resultado, luego se aplica el bucle for, seguimos con el push agregar todos los numeros al array vacio, luego se ejecuta el operador ternario para comprobar y se utiliza el reduce para sumar

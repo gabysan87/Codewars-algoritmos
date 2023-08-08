@@ -12,3 +12,6 @@ const sayHello = (name)=> {
   console.log(sayHello('Liutenant Uhura'))
   console.log(sayHello('Dr. McCoy'))
   
+  // Interpretación 
+  // Se une el elemento usando un template string
+

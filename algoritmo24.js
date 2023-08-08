@@ -6,15 +6,13 @@
 
 // No se preocupe por los números, caracteres especiales o tipos que no son cadenas que se pasan a la función. La longitud de la cadena será de 1 carácter a 10 caracteres, pero nunca estará vacía.
 
-
 function capitalizeWord(word) {
-  
-    return word.charAt(0).toUpperCase() + word.slice(1)
-  }
+  return word.charAt(0).toUpperCase() + word.slice(1);
+}
 
-  console.log(capitalizeWord('word'))
-console.log(capitalizeWord('i'))
-console.log(capitalizeWord('glasswear'))
+console.log(capitalizeWord("word"));
+console.log(capitalizeWord("i"));
+console.log(capitalizeWord("glasswear"));
 
 // Interpretacion
 // 1- Obtenemos el primer carácter del string

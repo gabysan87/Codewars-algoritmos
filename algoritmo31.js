@@ -21,4 +21,7 @@ const countSheeps = (arrayOfSheep) => {
 
   console.log(countSheeps(array1))
 
+//   Interpretación
+//   Se usa el método filter() crea un nuevo array con todos los elementos que cumplan la condición implementada por la función dada, y luego un length para contar la cantidad de elementos.
+
 

@@ -8,15 +8,15 @@
 // Si la matriz de entrada está vacía, considérela como: [0] (matriz con cero).
 
 function oddOrEven(array) {
+  let suma = array.reduce((acc, item) => acc + item, 0);
+  return suma % 2 == 0 ? "even" : "odd";
 
-let suma = array.reduce((acc,item) => acc + item, 0)
-    return suma % 2 == 0 ? "even" : "odd"
+  // return array.reduce((a,b) => a+b,0) % 2 ? 'odd' : 'even';
+}
 
-    // return array.reduce((a,b) => a+b,0) % 2 ? 'odd' : 'even';
- }
-
- console.log(oddOrEven([0]))
-console.log(oddOrEven([1]))
-console.log(oddOrEven([]))
+console.log(oddOrEven([0]));
+console.log(oddOrEven([1]));
+console.log(oddOrEven([]));
 
 // Interpretacion
+// Se utiliza un .reduce para sumar los elementos y luego el modulo para buscar el par, ademas usando el operador ternario.

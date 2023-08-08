@@ -4,24 +4,19 @@
 
 // Por ejemplo, si los parámetros pasados ​​son (2, 6), la función debería regresar [2, 4, 6]como 2, 4 y 6 son los múltiplos de 2 hasta 6.
 
-
 function findMultiples(integer, limit) {
-    //your code here
-
-
-    const result = []
-    for (let i = integer; i<=limit; i+=integer) {
-        result.push(i)
-         }
-         return result
+  const result = [];
+  for (let i = integer; i <= limit; i += integer) {
+    result.push(i);
   }
+  return result;
+}
 
+console.log(findMultiples(5, 25));
+console.log(findMultiples(1, 2));
+console.log(findMultiples(5, 7));
+console.log(findMultiples(4, 27));
+console.log(findMultiples(11, 54));
 
-
-  console.log(findMultiples(5, 25))
-  console.log(findMultiples(1, 2))
-  console.log(findMultiples(5, 7))
-  console.log(findMultiples(4, 27))
-  console.log(findMultiples(11, 54))
-
-//   Interpretacion 
+// //   Interpretacion
+// Se crea una constante vacia para guardar el resultado, se realiza un bucle for con la condicion de los parametro y al final usar la constante con el método push() añade uno o más elementos al final de un array y devuelve la nueva longitud del array.
