@@ -21,4 +21,4 @@ function opposite(number) {
 
 
 // Interpretacion
-//   la función se llama con num como el parámetro de entrada, y devuelve el opuesto de num, 
+//   la función se llama con num como el parámetro de entrada, y devuelve el opuesto de numero le agreagaro un aoperador matematico 

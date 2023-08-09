@@ -17,3 +17,5 @@ console.log(greet("Simon"))
 console.log(greet("Johnny"))
 
 // Interpretacion 
+// en la declaración if, se verifica si el nombre es igual a "Johnny" utilizando name === "Johnny". Si el nombre es exactamente igual a "Johnny", se ejecuta el bloque de código que sigue.
+// En el bloque else, se concatena la cadena "Hello, " con el nombre proporcionado y luego con "!" al final.

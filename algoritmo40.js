@@ -4,10 +4,9 @@
 
 // Ejemplo (Entrada --> Salida)
 
-"john McClane" --> "McClane john"
+// "john McClane" --> "McClane john"
 
 function nameShuffler(str){
-    //Shuffle It
 
     return str.split(' ').reverse().join(' ')
   }

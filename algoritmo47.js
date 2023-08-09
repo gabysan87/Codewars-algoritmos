@@ -23,4 +23,6 @@ console.log(quarterOf(3))
 console.log(quarterOf(8))
 console.log(quarterOf(11))
 
-    // Devuelve el máximo entero menor o igual a un número.
+// Interpretación
+// Math.ceil()
+//     // Devuelve el máximo entero menor o igual a un número.

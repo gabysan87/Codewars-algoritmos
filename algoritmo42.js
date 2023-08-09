@@ -9,13 +9,12 @@
 // makeNegative(0.12); // return -0.12
 
 function makeNegative(num) {
+  return -Math.abs(num);
 
-    return -Math.abs(num)
+  // return num < 0 ? num : -num;
+}
 
-    // return num < 0 ? num : -num;
-  }
-
-  console.log(makeNegative(42))
+console.log(makeNegative(42));
 
 //   Interpretación
 //   La función Math.abs() retorna el valor absoluto de un número

@@ -6,7 +6,6 @@
 
 const whoIsPaying = (name) => {
 
-
 return name.length <= 2 ? [name] : [name,name.slice(0,2)]
 }
 
@@ -17,4 +16,13 @@ console.log(whoIsPaying("Melissa"))
 console.log(whoIsPaying("Me"))
 console.log(whoIsPaying(""))
 console.log(whoIsPaying("I"))
+
+// Interpretación
+// La función realiza una comprobación en la longitud del nombre dado usando name.length.
+
+// Si la longitud del nombre es menor o igual a 2 caracteres (es un nombre muy corto), se devuelve una lista que contiene solo el nombre dado. Esto se hace usando la notación de array [name], que crea un nuevo arreglo con el nombre como su único elemento.
+
+// Si la longitud del nombre es mayor a 2 caracteres, la función toma los primeros dos caracteres del nombre utilizando name.slice(0, 2) y luego devuelve una lista con el nombre completo y los primeros dos caracteres. Esto se hace usando [name, name.slice(0, 2)], que crea un arreglo con dos elementos: el nombre completo y los primeros dos caracteres del nombre.
+
+
 

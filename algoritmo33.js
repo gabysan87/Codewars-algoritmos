@@ -25,3 +25,5 @@ console.log(cookie(2.3))
 console.log(cookie(true))
 
 
+// Interpretación 
+// En este creamos un bucle primero para declarar usamos tipo texto si responde a un string la respuesta sera Zach, y luego si es un nro. la respuesta sera Monica y si no es ninguna de las anteriores respondera quien se comio la galleta sera el perro

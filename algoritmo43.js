@@ -3,11 +3,12 @@
 
 // [Asegúrese de escribir exactamente lo que escribí o es posible que el programa no se ejecute correctamente]
 
+function greet(name) {
+  return `Hello, ${name} how are you doing today?`;
+}
 
-function greet(name){
-    //your code here
-    return `Hello, ${name} how are you doing today?`
-  }
+console.log(greet("Ryan"));
+console.log(greet("Shingles"));
 
-  console.log(greet("Ryan"))
-  console.log(greet("Shingles"))
+// Intepretación
+// Se usa un template string para poder unir en name con el texto

@@ -15,3 +15,6 @@ function checkAlive (health) {
 
   console.log(checkAlive(5))
   console.log(checkAlive(0))
+
+  // Interpretación
+  // Usamos un bucle para declarar la condicion si el elemento es mayor que 0 devuelve un booleano true sino devuelve false
